@@ -9,8 +9,6 @@ const {
   SPOTIFY_REFRESH_TOKEN: refresh_token,
 } = process.env
 
-console.log(process.env)
-
 const basic = Buffer.from(`${client_id}:${client_secret}`).toString('base64')
 
 const EndpointGetToken = 'https://accounts.spotify.com/api/token'
